@@ -113,7 +113,6 @@ nav .mainNav .menu{
     gap: 20px; /* Adjust the gap between cards */
     justify-content: center;
     align-content: center;
-
 }
 
 
@@ -207,8 +206,24 @@ nav .mainNav .menu{
 
 
 .blocks {
-    border: solid 1px white;
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
+    background: rgb(0,1,36);
+    background: linear-gradient(0deg, rgba(0,1,36,1) 0%, rgba(0,0,11,1) 100%);
+    box-shadow: 0 7px 20px 5px #000 88;
+    border-radius: 0.7rem;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px); 
 }
+
+.container-title {
+    text-align: center;
+    padding: 0 !important;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 60px;
+}
+
