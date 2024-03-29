@@ -227,3 +227,43 @@ nav .mainNav .menu{
     line-height: 60px;
 }
 
+.Reveiws {
+    border: white 1px solid;
+    padding: 20px;
+    max-width: 500px;
+    background-image: url(img/grad.avif);
+    background-size: cover;
+    display: inline-block !important;
+}
+
+.checked {
+    color: rgb(49, 207, 255)
+}
+
+
+
+.PricingTables {
+    border: white 1px solid;
+    padding: 20px;
+    max-width: 300px;
+    max-height: 400px;
+    min-width: 300px;
+    min-height: 400px;
+    background-image: linear-gradient(0deg, rgba(255, 0, 150, 0.35), rgba(255, 0, 150, 0.35)), url(img/pricing.avif);
+    background-size: cover;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 0.7rem;
+    text-align: center;
+}
+
+.pricingTablesProBg {
+    background-image: linear-gradient(0deg, rgba(255, 0, 150, 0.35), rgba(255, 0, 150, 0.35)), url(img/premiumbg.avif);
+}
+
+.pricingTableFlyIn {
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
