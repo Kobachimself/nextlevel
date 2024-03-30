@@ -236,10 +236,13 @@ nav .mainNav .menu{
     display: inline-block !important;
 }
 
-.checked {
+.fa-star {
     color: rgb(49, 207, 255)
 }
 
+.fa-star-half-stroke {
+    color: rgb(49, 207, 255)
+}
 
 
 .PricingTables {
