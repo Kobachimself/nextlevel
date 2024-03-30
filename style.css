@@ -267,11 +267,13 @@ nav .mainNav .menu{
     place-items: center;
     align-content: center;
 }
+
+
 .buy-button {
-    background-color: black; /* Set background color to black */
-    border: none;
-    color: white; /* Set text color to white */
-    padding: 15px 32px;
+    background-color: black;
+    border: 2px solid black; /* Black border */
+    color: white;
+    padding: 15px 125px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -279,5 +281,4 @@ nav .mainNav .menu{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
-    border: 2px solid black; /* Add black border */
 }
