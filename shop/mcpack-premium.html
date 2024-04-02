@@ -4,28 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premium Minecraft Pack</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333; /* Dark background color */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        .pricing-plan {
+            max-width: 500px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Position relative for absolute positioning */
+            overflow: hidden; /* Hide overflowing content */
+        }
+
+        .pricing-plan:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/premiumbg.avif);
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff; /* White text color */
+            font-weight: bold; /* Bold font weight */
+            margin-bottom: 20px; /* Add some spacing below the title */
+        }
+
+        .pricingTableFlyIn {
+            position: relative; /* Position relative for absolute positioning */
+        }
+
+        .PricingTables {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #333; /* Dark background color */
+            color: #fff; /* White text color */
+            z-index: 1; /* Ensure the background stays above */
+        }
+
+        /* Pricing table styling */
+        .PricingTables h2 {
+            font-size: 24px;
+            font-weight: bold; /* Bold font weight */
+            margin-bottom: 10px; /* Add some spacing below the heading */
+        }
+
+        .PricingTables p {
+            font-size: 18px;
+            margin-bottom: 15px; /* Add some spacing below the paragraphs */
+        }
+
+        .PricingTables ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .PricingTables ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-weight: bold; /* Bold font weight */
+        }
+
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <div class="pricing-plan premium-plan">
-        <h1>Premium Minecraft Pack</h1>
-        <div class="pricingTableFlyIn pricingTablesProBg">
-            <div class="PricingTables">
+    <h2 class="container-title"><b>Minecraft Pack</b></h2>
+    <div class="pricingTableFlyIn hidden">
+        <div class="mainTableForPrice">
+            <span class="PricingTables pricingTablesProBg">
                 <h2>Minecraft Pack</h2>
                 <p>Starts at $7/hour</p>
-                <hr>
-                <ul>
-                    <li>Custom plugins</li>
-                    <li>Plugin setup</li>
-                    <li>Server host setup</li>
-                    <li>Pro Plugins</li>
-                    <li>Pro Server optimization</li>
-                    <li>Server anti-cheat+</li>
-                    <li>Eco, quest, adventure</li>
+                <hr> 
+                <ul style="font-size: 20px;">
+                    <li>Custom plugins tailored to your server's needs.</li>
+                    <li>Professional plugin setup and configuration.</li>
+                    <li>Advanced server hosting setup for optimal performance.</li>
+                    <li>Pro Plugins for enhanced gameplay and features.</li>
+                    <li>Pro Server optimization for smooth gameplay.</li>
+                    <li>Comprehensive server anti-cheat measures.</li>
+                    <li>Economy, quest, and adventure systems integration.</li>
                 </ul>
-                <a href="#" class="buy-button">Buy Now</a>
-            </div>
+                <a href="shop/mcpack-premium.html"><button class="buy-button">Check it out!</button></a>
+            </span>
         </div>
     </div>
+
 </body>
-</html>
+ 
